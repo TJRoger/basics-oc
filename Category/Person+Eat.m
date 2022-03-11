@@ -16,4 +16,9 @@
 + (void)eatMeal {
     printf("eat meal\n");
 }
+
+- (void)run {
+    printf("eat run\n");
+}
+
 @end

@@ -16,4 +16,7 @@
 + (void)walk {
     printf("walk\n");
 }
+- (void)run {
+    printf("test run\n");
+}
 @end
