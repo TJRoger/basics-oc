@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)run;
 
+@property (copy, nonatomic) NSString* meal;
+
+@property (strong, nonatomic) int weight;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -16,6 +16,8 @@ int main(int argc, const char * argv[]) {
         id person = [[Person alloc] init];
         [person run];
         [person test];
+        [person setMeal:@"breakfest"];
+        NSString* meal = [person meal];
         [person eat];
     }
     return 0;

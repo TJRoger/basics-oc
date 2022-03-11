@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Person : NSObject
 
 - (void)run;
+@property (strong, nonatomic) NSString* nickname;
+
 @end
 
 NS_ASSUME_NONNULL_END
